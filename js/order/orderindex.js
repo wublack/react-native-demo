@@ -8,7 +8,6 @@ class OrderMain extends Component {
 
   constructor(props) {
     super(props);
-    this.props.navigation.navigate('Detail');
   }
 
 

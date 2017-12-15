@@ -41,7 +41,10 @@ const RootNavigator = StackNavigator({
   Detail:{
     screen:OrderDetail,
     navigationOptions:{
-      headerTitle:'Detail'
+      headerTitle:'Detail',
+      headerLeft:{
+
+      }
     }
   }
 })
